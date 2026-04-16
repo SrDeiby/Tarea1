@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Travel & Lifestyle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-logo">MyBlog</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Lifestyle</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Gaming</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+
+    <section class="featured-posts">
+      <article class="post-card">
+        <div class="post-card__image-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80"
+            alt="Montañas"
+            class="post-card__image"
+          />
+          <span class="post-card__tag tag--lifestyle">Lifestyle</span>
+        </div>
+        <div class="post-card__body">
+          <h2 class="post-card__title">The Most Popular Places to Visit in the World</h2>
+          <p class="post-card__meta">Top Places</p>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card__image-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80"
+            alt="Persona practicando yoga"
+            class="post-card__image"
+          />
+          <span class="post-card__tag tag--health">Health</span>
+        </div>
+        <div class="post-card__body">
+          <h2 class="post-card__title">Does Exercise Help with your Productivity?</h2>
+          <p class="post-card__meta">Health Chat</p>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card__image-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600&q=80"
+            alt="Controlador de videojuego"
+            class="post-card__image"
+          />
+          <span class="post-card__tag tag--gaming">Gaming</span>
+        </div>
+        <div class="post-card__body">
+          <h2 class="post-card__title">Can Playing Video Games Help Reduce Stress?</h2>
+          <p class="post-card__meta">Game Play</p>
+        </div>
+      </article>
+    </section>
+
+
+    <section class="content-layout">
+
+
+      <div class="main-article">
+        <article class="hero-post">
+          <img
+            src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=900&q=80"
+            alt="Vista"
+            class="hero-post__image"
+          />
+          <div class="hero-post__content">
+            <span class="hero-post__tag">Travel</span>
+            <h1 class="hero-post__title">Where to Visit on Your Next Vacation</h1>
+            <p class="hero-post__author">Written by Jane Doe on December 02, 2019</p>
+            <p class="hero-post__excerpt">
+              There are thousands of places you can visit on your next vacation. In this post
+              we'll show you the top destinations to consider for your next adventure...
+            </p>
+            <a href="#" class="read-more">Continue Reading &rsaquo;</a>
+          </div>
+        </article>
+
+
+        <div class="secondary-grid">
+          <article class="secondary-card">
+            <img
+              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&q=80"
+              alt="Ami"
+              class="secondary-card__image"
+            />
+            <h3 class="secondary-card__title">Time for the Beach and Friends</h3>
+            <p class="secondary-card__excerpt">Many people live so close to amazing scenery, yet they rarely take...</p>
+            <a href="#" class="read-more">Continue Reading &rsaquo;</a>
+          </article>
+
+          <article class="secondary-card">
+            <img
+              src="https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?w=400&q=80"
+              alt="Muelle"
+              class="secondary-card__image"
+            />
+            <h3 class="secondary-card__title">Are you Ready for an Experience?</h3>
+            <p class="secondary-card__excerpt">Check out these awesome places you'll want to visit as you set your...</p>
+            <a href="#" class="read-more">Continue Reading &rsaquo;</a>
+          </article>
+
+          <article class="secondary-card">
+            <img
+              src="https://images.unsplash.com/photo-1472491235688-bdc81a63246e?w=400&q=80"
+              alt="Niños"
+              class="secondary-card__image"
+            />
+            <h3 class="secondary-card__title">Take Me Back in Time</h3>
+            <p class="secondary-card__excerpt">How nice would that be to go back in time and enjoy the youth...</p>
+            <a href="#" class="read-more">Continue Reading &rsaquo;</a>
+          </article>
+
+          <article class="secondary-card">
+            <img
+              src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80"
+              alt="Atleta "
+              class="secondary-card__image"
+            />
+            <h3 class="secondary-card__title">Here are the Best Ways to Train</h3>
+            <p class="secondary-card__excerpt">Learn about the best ways to train to get the most of your workout...</p>
+            <a href="#" class="read-more">Continue Reading &rsaquo;</a>
+          </article>
+        </div>
+      </div>
+
+
+      <aside class="sidebar">
+
+        <div class="widget widget--newsletter">
+          <h3 class="widget__title">Subscribe to our Newsletter</h3>
+          <p class="widget__subtitle">No Spam. Only one email per week.</p>
+          <div class="newsletter-form">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="newsletter-form__input"
+              aria-label="First Name"
+            />
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="newsletter-form__input"
+              aria-label="Email Address"
+            />
+            <button class="newsletter-form__btn">SUBSCRIBE</button>
+          </div>
+        </div>
+
+
+        <div class="widget">
+          <h3 class="widget__title">Categories</h3>
+          <ul class="category-list">
+            <li class="category-list__item">
+              <a href="#" class="category-list__link">Lifestyle</a>
+              <span class="category-list__count">32</span>
+            </li>
+            <li class="category-list__item">
+              <a href="#" class="category-list__link">Health</a>
+              <span class="category-list__count">41</span>
+            </li>
+            <li class="category-list__item">
+              <a href="#" class="category-list__link">Gaming</a>
+              <span class="category-list__count">27</span>
+            </li>
+            <li class="category-list__item">
+              <a href="#" class="category-list__link">Travel</a>
+              <span class="category-list__count">21</span>
+            </li>
+            <li class="category-list__item">
+              <a href="#" class="category-list__link">Food</a>
+              <span class="category-list__count">15</span>
+            </li>
+            <li class="category-list__item">
+              <a href="#" class="category-list__link">Business</a>
+              <span class="category-list__count">28</span>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="widget">
+          <h3 class="widget__title">Recent Posts</h3>
+          <ul class="recent-posts">
+            <li class="recent-post">
+              <img
+                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=100&q=80"
+                alt="Vista aerea"
+                class="recent-post__image"
+              />
+              <div class="recent-post__info">
+                <a href="#" class="recent-post__title">Top Destinations to Visit in the World</a>
+                <span class="recent-post__date">January 02, 2021</span>
+              </div>
+            </li>
+            <li class="recent-post">
+              <img
+                src="https://images.unsplash.com/photo-1612404730960-5c71577fca11?w=100&q=80"
+                alt="VR"
+                class="recent-post__image"
+              />
+              <div class="recent-post__info">
+                <a href="#" class="recent-post__title">Experience the Future of the 3d Gaming Experience</a>
+                <span class="recent-post__date">January 04, 2021</span>
+              </div>
+            </li>
+            <li class="recent-post">
+              <img
+                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=100&q=80"
+                alt="Paisaje"
+                class="recent-post__image"
+              />
+              <div class="recent-post__info">
+                <a href="#" class="recent-post__title">Take a Trip to The End of The World</a>
+                <span class="recent-post__date">January 05, 2021</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2024 MyBlog. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
